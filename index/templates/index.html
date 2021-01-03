@@ -44,7 +44,6 @@
                     <ul>
                         <li><a href="#013">浪漫屋</a></li>
                         <li><a href="#014">Milano</a></li>
-                        <li><a href="#015">サーバー引越し.com</a></li>
                     </ul>
                 <li><a href="#016">スキル</a></li>
                 <li><a href="#017">使用可能ツール</a></li>
@@ -65,17 +64,17 @@
                 <tr>
                   <th scope="row">2</th>
                   <td>長所</td>
-                  <td>勉強が好き・作業が丁寧</td>
+                  <td>粘り強く諦めない所</td>
                 </tr>
                 <tr>
                   <th scope="row">3</th>
                   <td>短所</td>
-                  <td>アウトプットが少ない</td>
+                  <td>集中しすぎる所</td>
                 </tr>
                 <tr>
                   <th scope="row">4</th>
                   <td>趣味</td>
-                  <td>読書</td>
+                  <td>読書・プログラミング</td>
                 </tr>
                 <tr>
                   <th scope="row">5</th>
@@ -104,9 +103,9 @@
                 <div class="h3_area">
                     <h3 class="mt-4" id="003">為替計算機</h3>
                         <p><a href="https://www.oanda.jp/" target="_blank">OANDA Japan株式会社</a>様から
-                            APIで4ヶ国の為替レートを取得して、一括で相関レートを計算します。</p>
-                        <p>4つの数字を同時に かつ どの数字を説明変数にしても計算ができると
-                            いう条件はGoogle検索で探しても見つからず数時間かけて計算方法を考えました。</p>
+                            APIで3ヶ国の為替レートを取得して、一括で相関レートを計算します。</p>
+                        <p>どの数字を説明変数にしても計算ができるという条件は、
+                        Google検索で探しても見つけることができなかったので、数時間かけて計算方法を考えました。</p>
                         <em class="mt-4 font-weight-bold">ツールのポイント</em>
                         <div class="point">
                              <ul>
@@ -197,6 +196,7 @@
                         <p>複数のクラウドソーシングサイトから、特定カテゴリーの案件を抽出してSlackのグループに定期的に配信しています。</p>
                         <p>クラウドソーシングサイトに案件を探しにいく時間を毎日30分（3サイト/5分閲覧/1日2回 の場合）以上の削減になります。</p>
                         <p>Twiiterの固定ツイートにしていて、「いいね」を 800件以上いただいています。</p>
+                        <p>※このツールは、Djangoで改良版を作成中です。</p>
                         <em class="mt-4 font-weight-bold">ツールのポイント</em>
                         <div class="point">
                              <ul>
@@ -255,6 +255,8 @@
                            クラウドソーシングサイトからご注文をいただきました。seoやマーケティングの知識が少しありましたのでお客様とご相談しながら作成をしました。</p>
                         <p>このお客様のメインターゲットは25-35歳程度の女性なので、デザインは若めの女性向けが良いと思っていましたがお客様のご要望デザインを優先しました。</p>
                         <p>この経験のおかげで、会社の規則の重要性や科学的根拠に基づいた技術や知識とお客様のご要望のすり合わせの重要性が勉強になりとても貴重な経験だったと思っています。</p>
+                        <p>テーマの自作は、時間がかかりすぎるため既存のテンプレートを改造しています。テンプレート独自のコードがあり
+                        functions.phpや子テーマの構造が特殊で難しかったです。</p>
 
                         <h4 class="mt-4">WEBサイト情報</h4>
                             <a href="https://romanya-kanazawa.com/" target="_blank">>> 金沢観光人力車 浪漫屋<br><img class="img-fluid center-block" src="{% static 'img/romanya_01.png' %}" alt="浪漫屋 イメージ画像"></a>
@@ -268,16 +270,7 @@
                             <a href="https://ses-marketing.net/site-creative" target="_blank">>> Milano<br><img class="img-fluid center-block" src="{% static 'img/milano.png' %}" alt="milano イメージ"></a>
 
                 </div>
-                <hr>
-                <div class="h3_area">
-                    <h3 class="mt-4" id="015">サーバー引越し.com</h3>
-                        <p>練習用にスピード重視で作成しており４日で完成させました。</p>
-                        <p>wordpressの構築から作成するとPHPやMySQLの勉強になりますが、膨大な時間がかかってしまいますのでテンプレートを使用しています。</p>
 
-                        <h4 class="mt-4">WEBサイト情報</h4>
-                            <a href="https://server-hikkoshi.com/" target="_blank">>> サーバー引越し.com<br><img class="img-fluid center-block" src="{% static 'img/servercom.png' %}" alt="サーバー引越し.com イメージ"></a>
-
-                </div>
         </div>
     </section>
 
@@ -298,9 +291,8 @@
                     <div class="point">
                          <ul>
                             <li>Javascript</li>
-                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
                             <li>PHP</li>
-                            <li>R</li>
                         </ul>
                     </div>
                 </div>
